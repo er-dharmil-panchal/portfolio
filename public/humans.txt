@@ -3,8 +3,8 @@
   Role: Computer Engineering Student | Full-Stack & Python Developer
   Contact: dharmil132@gmail.com
   Location: Ahmedabad, Gujarat, India
-  GitHub: https://github.com/dharmilpanchal
-  LinkedIn: https://linkedin.com/in/dharmilpanchal
+  GitHub: https://github.com/er-dharmil-panchal
+  LinkedIn: https://www.linkedin.com/in/dharmil-panchal-999501332/
 
 /* SITE */
   Last update: 2026/08/13

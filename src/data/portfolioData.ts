@@ -120,16 +120,20 @@ export const education = {
 };
 
 export const marqueeItems = [
-  "Dharmil Panchal — Full-Stack Developer",
+  "Full-Stack Developer",
   "◈",
-  "Dharmil Panchal — Python Developer",
+  "Open to Opportunities",
   "◈",
-  "Dharmil Panchal — Computer Engineering Student",
+  "React & Python",
   "◈",
-  "Dharmil Panchal — REST API Architect",
+  "REST API Architecture",
   "◈",
-  "Dharmil Panchal — Real-Time Systems",
+  "Let's Build Together",
   "◈",
-  "Dharmil Panchal — Ahmedabad, Gujarat, India",
+  "Real-Time Trading Systems",
+  "◈",
+  "Data Analytics",
+  "◈",
+  "Ahmedabad, India",
   "◈",
 ];

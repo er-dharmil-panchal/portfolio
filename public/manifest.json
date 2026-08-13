@@ -1,0 +1,17 @@
+{
+  "name": "Dharmil Panchal — Full-Stack & Python Developer",
+  "short_name": "Dharmil",
+  "description": "Official Portfolio of Dharmil Panchal — Computer Engineering student and Full-Stack & Python Developer in Ahmedabad, India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0D0F",
+  "theme_color": "#0D0D0F",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

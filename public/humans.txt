@@ -1,0 +1,13 @@
+/* TEAM */
+  Developer: Dharmil Panchal
+  Role: Computer Engineering Student | Full-Stack & Python Developer
+  Contact: dharmil132@gmail.com
+  Location: Ahmedabad, Gujarat, India
+  GitHub: https://github.com/dharmilpanchal
+  LinkedIn: https://linkedin.com/in/dharmilpanchal
+
+/* SITE */
+  Last update: 2026/08/13
+  Standards: HTML5, CSS3, ES2024, TypeScript
+  Components: React, Vite, Framer Motion, Lenis Smooth Scroll
+  Language: English

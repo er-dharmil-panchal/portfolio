@@ -92,15 +92,15 @@ export const projects = [
       "Plotly",
       "Angel One API",
     ],
-    github: "https://github.com/er-dharmil-panchal/stocxsim",
+    github: "https://github.com/Stocxsim/stocxsim",
     demo: "#",
-    imageAlt: "Stocxsim virtual trading interface and analytics dashboard",
+    imageAlt: "Dharmil Panchal's Stocxsim virtual trading interface and analytics dashboard",
   },
   {
     number: "03",
     title: "DOER — Household Marketplace",
     description:
-      "Dharmil Panchal's desktop application connecting households with service workers, featuring dual-role dashboards and end-to-end request lifecycle management.",
+      "Desktop application connecting households with service workers, featuring dual-role dashboards and end-to-end request lifecycle management.",
     features: [
       "Dual-role dashboard for households & workers",
       "OOP architecture with clean separation of concerns",
@@ -108,7 +108,7 @@ export const projects = [
       "Persistent data storage with MySQL via JDBC",
     ],
     techStack: ["Java", "JavaFX", "JDBC", "MySQL"],
-    github: "https://github.com/er-dharmil-panchal",
+    github: "https://github.com/Doer-Project/Doer",
     demo: "#",
     imageAlt: "Dharmil Panchal's DOER Household Service Marketplace Application",
   },
@@ -119,7 +119,7 @@ export const education = {
   institution: "L.J. Institute of Engineering and Technology",
   period: "2024 — 2028",
   location: "Ahmedabad, Gujarat, India",
-  cpi: "CPI: ~8.8",
+  cpi: "CPI: 9.03",
   description: "Dharmil Panchal's Bachelor of Engineering in Computer Engineering at LJIET Ahmedabad.",
 };
 

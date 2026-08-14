@@ -34,7 +34,6 @@ export const skillCategories = [
       "Node.js",
       "Django REST Framework",
       "Flask",
-      "Streamlit",
       "Tailwind CSS",
       "Bootstrap",
     ],
@@ -43,6 +42,19 @@ export const skillCategories = [
     title: "Databases & Tools",
     subtitle: "Databases, APIs & dev tooling mastered by Dharmil Panchal",
     skills: ["MongoDB", "PostgreSQL", "MySQL", "Git", "Postman", "WebSockets"],
+  },
+  {
+    title: "Data & Machine Learning",
+    subtitle: "Data analytics, visualization & predictive modeling",
+    skills: [
+      "Data Analytics",
+      "Pandas",
+      "NumPy",
+      "Plotly",
+      "Seaborn",
+      "Scikit-Learn (sklearn)",
+      "Streamlit",
+    ],
   },
 ];
 

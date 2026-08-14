@@ -4,7 +4,7 @@ export const personalInfo = {
   role: "Computer Engineering Student | Full-Stack & Python Developer",
   headline: "Computer Engineering Student",
   location: "Ahmedabad, Gujarat, India",
-  cpi: "~8.8",
+  cpi: "9.03",
   institution: "L.J. Institute of Engineering and Technology",
   graduationYears: "2024 — 2028",
   status: "Available for Hire",
@@ -14,7 +14,7 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  email: "dharmil132@gmail.com",
+  email: "dharmilpanchal2031@gmail.com",
   github: "https://github.com/er-dharmil-panchal",
   linkedin: "https://www.linkedin.com/in/dharmil-panchal-999501332/",
 };
@@ -42,55 +42,59 @@ export const skillCategories = [
   {
     title: "Databases & Tools",
     subtitle: "Databases, APIs & dev tooling mastered by Dharmil Panchal",
-    skills: ["PostgreSQL", "MySQL", "Git", "Postman", "WebSockets"],
+    skills: ["MongoDB", "PostgreSQL", "MySQL", "Git", "Postman", "WebSockets"],
   },
 ];
 
 export const projects = [
   {
     number: "01",
-    title: "PERN & Django Decoupled Web App",
+    title: "ARKodee — Real-Time Gamified DSA Platform",
     description:
-      "Dharmil Panchal's full-stack decoupled architecture combining React frontend with Express.js and Django REST Framework backends, powered by PostgreSQL.",
+      "A gamified competitive programming platform featuring real-time 1v1 coding duels, custom match lobbies, disruptive sabotages, LeetCode-style contests, and automated judging powered by a decoupled Django REST and Node.js architecture.",
     features: [
-      "Full-stack architecture with decoupled frontend & backend",
-      "REST API design with complex database querying",
-      "Custom reusable UI component library",
-      "Robust authentication and data validation",
+      "Real-time 1v1 live matchmaking & ELO rating system",
+      "Custom match rooms with dynamic host controls",
+      "Interactive in-game sabotages and player advantages",
+      "Solo practice arenas with automated Monaco code evaluation",
+      "Scheduled real-time contests with live leaderboards",
+      "Daily Bug Bounty mini-game for debugging broken DSA snippets",
     ],
     techStack: [
       "React",
-      "Express.js",
-      "Node.js",
       "Django REST",
+      "Node.js",
+      "Socket.io",
       "PostgreSQL",
+      "Redis",
+      "Monaco Editor",
     ],
-    github: "https://github.com/er-dharmil-panchal",
+    github: "https://github.com/ARKodee/ARKodee",
     demo: "#",
-    imageAlt: "Dharmil Panchal's PERN and Django Decoupled Web Application",
+    imageAlt: "Dharmil Panchal's ARKodee Real-Time Gamified DSA and Competitive Coding Platform",
   },
   {
     number: "02",
-    title: "Stocxsim — Virtual Stock Trading",
+    title: "Stocxsim — Virtual Stock Trading Platform",
     description:
-      "Dharmil Panchal's real-time stock trading simulator with live price streaming, portfolio tracking, and interactive analytics dashboards.",
+      "A real-time paper trading and backtesting engine featuring live market streaming, instant order execution, and interactive performance analytics.",
     features: [
-      "Real-time price streaming via WebSockets",
-      "Low-latency trade execution engine",
-      "Interactive portfolio tracking with Plotly charts",
-      "Angel One API integration for live market data",
+      "Real-time market price streaming via WebSockets",
+      "Low-latency simulated trade execution engine",
+      "Interactive P&L dashboards powered by Plotly",
+      "Angel One SmartAPI integration for live data feeds",
     ],
     techStack: [
       "Python",
       "Flask",
-      "WebSockets",
-      "MySQL",
       "PostgreSQL",
+      "WebSockets",
       "Plotly",
+      "Angel One API",
     ],
-    github: "https://github.com/er-dharmil-panchal",
+    github: "https://github.com/er-dharmil-panchal/stocxsim",
     demo: "#",
-    imageAlt: "Dharmil Panchal's Stocxsim Virtual Stock Trading Simulator",
+    imageAlt: "Stocxsim virtual trading interface and analytics dashboard",
   },
   {
     number: "03",

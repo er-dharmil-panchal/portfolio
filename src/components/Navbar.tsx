@@ -4,9 +4,10 @@ import { personalInfo } from '../data/portfolioData';
 interface NavbarProps {
   theme: 'dark' | 'light';
   toggleTheme: () => void;
+  onOpenResume?: () => void;
 }
 
-export default function Navbar({ theme, toggleTheme }: NavbarProps) {
+export default function Navbar({ theme, toggleTheme, onOpenResume }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -41,6 +42,13 @@ export default function Navbar({ theme, toggleTheme }: NavbarProps) {
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (onOpenResume) {
+      e.preventDefault();
+      onOpenResume();
     }
   };
 
@@ -97,8 +105,7 @@ export default function Navbar({ theme, toggleTheme }: NavbarProps) {
           <a
             href={personalInfo.resumeUrl}
             className="btn-resume"
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={handleResumeClick}
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />

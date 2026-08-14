@@ -13,12 +13,16 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import MarqueeStrip from './components/MarqueeStrip';
 import Footer from './components/Footer';
+import ResumeModal from './components/ResumeModal';
+import { personalInfo } from './data/portfolioData';
 
 function App() {
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
     const saved = localStorage.getItem('portfolio-theme');
     return (saved as 'dark' | 'light') || 'dark';
   });
+
+  const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
 
   const { position, isHovering } = useMousePosition();
   useSmoothScroll();
@@ -48,7 +52,11 @@ function App() {
       <ScrollProgress />
 
       {/* Navigation */}
-      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Navbar
+        theme={theme}
+        toggleTheme={toggleTheme}
+        onOpenResume={() => setIsResumeModalOpen(true)}
+      />
 
       {/* Main content */}
       <main>
@@ -64,6 +72,13 @@ function App() {
 
       {/* Footer */}
       <Footer />
+
+      {/* Interactive In-Page PDF Resume Viewer Modal */}
+      <ResumeModal
+        isOpen={isResumeModalOpen}
+        onClose={() => setIsResumeModalOpen(false)}
+        pdfUrl={personalInfo.resumeUrl || '/Dharmil-Panchal-Resume.pdf'}
+      />
     </>
   );
 }

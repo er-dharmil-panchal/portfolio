@@ -10,7 +10,7 @@ export const personalInfo = {
   status: "Available for Hire",
   description:
     "Full-Stack & Python Developer crafting scalable web applications, real-time trading platforms, and data-driven REST systems. Currently pursuing B.E. in Computer Engineering in Ahmedabad, India.",
-  resumeUrl: "#",
+  resumeUrl: "/Dharmil-Panchal-Resume.pdf",
 };
 
 export const socialLinks = {

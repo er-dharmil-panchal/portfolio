@@ -9,7 +9,7 @@ export const personalInfo = {
   graduationYears: "2024 — 2028",
   status: "Available for Hire",
   description:
-    "Dharmil Panchal's Official Developer Portfolio — Computer Engineering Student & Full-Stack Python Developer crafting scalable web applications, real-time trading platforms, and data-driven REST systems based in Ahmedabad, India.",
+    "Full-Stack & Python Developer crafting scalable web applications, real-time trading platforms, and data-driven REST systems. Currently pursuing B.E. in Computer Engineering in Ahmedabad, India.",
   resumeUrl: "#",
 };
 
